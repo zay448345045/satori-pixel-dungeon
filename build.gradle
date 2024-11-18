@@ -29,6 +29,7 @@ allprojects {
     version = appVersionName
 
     repositories {
+        maven { url 'https://jitpack.io' }
         google()
         jcenter()
     }
