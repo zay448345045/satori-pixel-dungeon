@@ -25,6 +25,7 @@ android:installLocation="auto">
 			android:fullBackupOnly="true"
 			android:backupAgent=".AndroidBackupHandler" android:fullBackupContent="@xml/backup_descriptor">
 		<activity
+            android:exported="true"
 			android:label="Satori's Pixel Dungeon"
 			android:name=".AndroidLauncher">
 			<intent-filter >
