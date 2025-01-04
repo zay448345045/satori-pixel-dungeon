@@ -21,7 +21,8 @@ allprojects {
         appVersionName = '1.7.4'
 
         appAndroidCompileSDK = 35 //29
-        appAndroidMinSDK = 24
+        appAndroidMinSDK = 26
+//以java23编译java17或者18，除非重构将 Lambda 表达式转换为匿名内部类，否则不支持安卓sdkapi24，最低从安卓o即26开始
         appAndroidTargetSDK = 35 //29
 
         gdxVersion = '1.9.10'
