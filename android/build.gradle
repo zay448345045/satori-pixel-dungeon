@@ -62,6 +62,7 @@ configurations { natives }
 dependencies {
     implementation project(':core')
 
+implementation 'androidx.multidex:multidex:2.0.1' // 或最新版本
     implementation "com.badlogicgames.gdx:gdx-backend-android:$gdxVersion"
     implementation "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
     implementation "com.github.RohitSurwase.UCE-Handler:uce_handler:1.4"
