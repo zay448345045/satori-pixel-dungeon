@@ -27,7 +27,7 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
 #      run: ./gradlew build
-      run: ./gradlew   assembleRelease #--debug  #build
+      run: ./gradlew   assembleDebug #--debug  #build
 #assembleRelease assembleDebug
 
     - uses: actions/upload-artifact@v4
