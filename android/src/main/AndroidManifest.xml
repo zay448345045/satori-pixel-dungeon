@@ -29,7 +29,8 @@ android:installLocation="auto">
 		<activity
             android:exported="true"
 			android:label="Satori's Pixel Dungeon"
-			android:name=".AndroidLauncher">
+			android:name="studio.baka.satoripixeldungeon.android.AndroidLauncher">
+<!-- 没有package就不能用缩写了，不能只有.AndroidLauncher，因为读不到。 --> 
 			<intent-filter >
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
