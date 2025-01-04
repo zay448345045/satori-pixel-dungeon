@@ -12,8 +12,9 @@ buildscript {
 }
 
 allprojects {
-/*
+
     ext {
+/*
         appName = 'Satori\'s Pixel Dungeon'
         appPackageName = 'studio.baka.satoripixeldungeon.android'
 //namespace "studio.baka.satoripixeldungeon.android"
@@ -24,7 +25,8 @@ allprojects {
         appAndroidMinSDK = 24
 //以java2（真的是java2）编译java17或者18，除非重构将 Lambda 表达式转换为匿名内部类，否则不支持安卓sdkapi24，最低从安卓o即26开始。
         appAndroidTargetSDK = 35 //29
-/*
+*/
+
         gdxVersion = '1.9.10'
     }
 //    version = appVersionName
