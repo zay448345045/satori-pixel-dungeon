@@ -14,8 +14,8 @@ namespace "studio.baka.satoripixeldungeon.android"
 
     defaultConfig {
         manifestPlaceholders = [appName:appName]
-        applicationId appPackageName
-
+        applicationId "studio.baka.satoripixeldungeon.android"
+//appPackageName
         versionCode appVersionCode
         versionName appVersionName
 
