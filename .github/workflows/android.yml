@@ -3,8 +3,11 @@ name: Android CI
 on:
   push:
     branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
+    paths:
+       - 'action.on' # 只有 特定 文件的更改才构建
+#
+#  pull_request:
+#    branches: [ "master" ]
 
 jobs:
   build:
