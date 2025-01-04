@@ -42,9 +42,9 @@ namespace "studio.baka.satorispixeldungeon.android"
         }
     }
     compileOptions {
-        sourceCompatibility = 2.3
+        sourceCompatibility = JavaVersion.VERSION_23
 //1.8 or JavaVersion.VERSION_23
-        targetCompatibility = 2.3
+        targetCompatibility = JavaVersion.VERSION_23
     }
 //    buildToolsVersion = '29.0.3'
 }
