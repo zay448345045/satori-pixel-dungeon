@@ -21,14 +21,23 @@ namespace "studio.baka.satoripixeldungeon.android"
 /*        manifestPlaceholders = [appName:appName]
 */
         applicationId "studio.baka.satoripixeldungeon.android"
-//appPackageName
-        versionCode appVersionCode
-        versionName appVersionName
+/*appPackageName         
+appVersionCode = 383
+        appVersionName = '1.7.4'
+        gdxVersion = '1.9.10'
+appVersionCode
+appVersionName
+appAndroidTargetSDK
+appAndroidMinSDK
+        appAndroidMinSDK = 24
+*/
+        versionCode 383
+        versionName 1.7.4
 
         //noinspection MinSdkTooLow
-        minSdkVersion appAndroidMinSDK
-        targetSdkVersion appAndroidTargetSDK
-
+        minSdkVersion 24
+        targetSdkVersion 35
+compileSdkVersion 35
         resConfigs "en_US", "cs", "tr", "ca", "ko", "pl", "it", "ja",
                 "eo", "ru", "zh_CN", "de", "fr", "es", "pt", "fi", "hu", "in"
     }
