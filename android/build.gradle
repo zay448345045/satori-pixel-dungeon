@@ -42,8 +42,9 @@ namespace "studio.baka.satorispixeldungeon"
         }
     }
     compileOptions {
-        sourceCompatibility = 1.8
-        targetCompatibility = 1.8
+        sourceCompatibility = 2.3
+//1.8 or JavaVersion.VERSION_23
+        targetCompatibility = 2.3
     }
 //    buildToolsVersion = '29.0.3'
 }
