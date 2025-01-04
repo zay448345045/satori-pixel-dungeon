@@ -25,7 +25,8 @@ android:installLocation="auto">
 			android:resizeableActivity="true"
 			android:allowBackup="true"
 			android:fullBackupOnly="true"
-			android:backupAgent=".AndroidBackupHandler"
+		
+	android:backupAgent="studio.baka.satoripixeldungeon.android.AndroidBackupHandler"
  android:fullBackupContent="@xml/backup_descriptor">
 <!-- android:name="androidx.multidex.MultiDexApplication" -->
 		<activity
