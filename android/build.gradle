@@ -1,19 +1,25 @@
+plugins {
 apply plugin: 'com.android.application'
-
+}
 android {
 namespace "studio.baka.satoripixeldungeon.android"
+
 //package studio.baka.satoripixeldungeon.android;
 //
+/*
     configurations.all {
         resolutionStrategy {
             force 'androidx.vectordrawable:vectordrawable-animated:1.1.0' // 使用最新版本
+*/
         }
     }
 
-    compileSdkVersion appAndroidCompileSDK
+//    compileSdkVersion appAndroidCompileSDK
 
     defaultConfig {
-        manifestPlaceholders = [appName:appName]
+
+/*        manifestPlaceholders = [appName:appName]
+*/
         applicationId "studio.baka.satoripixeldungeon.android"
 //appPackageName
         versionCode appVersionCode
