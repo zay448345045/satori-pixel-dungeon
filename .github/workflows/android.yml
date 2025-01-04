@@ -2,7 +2,7 @@ name: Android CI
 
 on:
   push:
-    branches: [ "master" ]
+#    branches: [ "master" ]
     paths:
        - 'action.on' # 只有 特定 文件的更改才构建
 #
