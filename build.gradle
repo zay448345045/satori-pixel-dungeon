@@ -15,7 +15,7 @@ allprojects {
 
     ext {
         appName = 'Satori\'s Pixel Dungeon'
-//        appPackageName = 'studio.baka.satoripixeldungeon.android'
+        appPackageName = 'studio.baka.satoripixeldungeon.android'
 //namespace "studio.baka.satoripixeldungeon.android"
         appVersionCode = 383
         appVersionName = '1.7.4'
