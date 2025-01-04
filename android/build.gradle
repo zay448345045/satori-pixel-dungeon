@@ -2,6 +2,13 @@ apply plugin: 'com.android.application'
 
 android {
 namespace "studio.baka.satorispixeldungeon.android"
+
+    configurations.all {
+        resolutionStrategy {
+            force 'androidx.vectordrawable:vectordrawable-animated:1.1.0' // 使用最新版本
+        }
+    }
+
     compileSdkVersion appAndroidCompileSDK
 
     defaultConfig {
