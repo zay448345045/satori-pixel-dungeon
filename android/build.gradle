@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-namespace "studio.baka.satorispixeldungeon.android"
+namespace "studio.baka.satoripixeldungeon.android"
 
     configurations.all {
         resolutionStrategy {
