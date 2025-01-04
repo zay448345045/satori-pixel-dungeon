@@ -7,12 +7,12 @@ buildscript {
 
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.7.2' //3.6.3
+        classpath 'com.android.tools.build:gradle:8.7.3' //3.6.3
     }
 }
 
 allprojects {
-
+/*
     ext {
         appName = 'Satori\'s Pixel Dungeon'
         appPackageName = 'studio.baka.satoripixeldungeon.android'
@@ -28,7 +28,7 @@ allprojects {
         gdxVersion = '1.9.10'
     }
     version = appVersionName
-
+*/
     repositories {
         maven { url 'https://jitpack.io' }
         google()
