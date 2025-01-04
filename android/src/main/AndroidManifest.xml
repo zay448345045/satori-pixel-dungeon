@@ -26,7 +26,8 @@ android:installLocation="auto">
 			android:allowBackup="true"
 			android:fullBackupOnly="true"
 			android:backupAgent=".AndroidBackupHandler"
-android:name="androidx.multidex.MultiDexApplication" android:fullBackupContent="@xml/backup_descriptor">
+ android:fullBackupContent="@xml/backup_descriptor">
+<!-- android:name="androidx.multidex.MultiDexApplication" -->
 		<activity
             android:exported="true"
 			android:label="Satori's Pixel Dungeon"
