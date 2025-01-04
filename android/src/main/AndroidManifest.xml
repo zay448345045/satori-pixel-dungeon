@@ -39,8 +39,10 @@ android:installLocation="auto">
 			</intent-filter>
 		</activity>
 		<activity
+            android:exported="true"
 			android:label="${appName}"
-			android:name=".AndroidGame"
+		
+	android:name="studio.baka.satoripixeldungeon.android.AndroidGame"
 			android:screenOrientation="nosensor"
 			android:configChanges="keyboard|keyboardHidden|orientation">
 		</activity>
