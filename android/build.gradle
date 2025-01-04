@@ -73,7 +73,7 @@ compileSdkVersion 35
         targetCompatibility = JavaVersion.VERSION_23
     }
 //    buildToolsVersion = '29.0.3'
-}
+
 
 configurations { natives }
 
