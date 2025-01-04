@@ -29,8 +29,10 @@ multiDexEnabled true
 
     buildTypes {
         debug {
+/*
             applicationIdSuffix ".indev"
             versionNameSuffix '-INDEV'
+*/
         }
         release {
 
