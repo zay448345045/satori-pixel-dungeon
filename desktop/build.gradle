@@ -29,10 +29,12 @@ task releaseJAR(type: Jar) {
         attributes 'Specification-Name': studio.baka.satoripixeldungeon.desktop
         attributes 'Specification-Version': appVersionName
         attributes 'Implementation-Version': appVersionCode
-//studio.baka.satoripixeldungeon.desktop
+/*
+studio.baka.satoripixeldungeon.desktop
 appName
 appVersionName
 appVersionCode
+*/
     }
 }
 
