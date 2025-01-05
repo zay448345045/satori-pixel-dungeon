@@ -1,5 +1,7 @@
 plugins {
+
 apply plugin: 'com.android.application'
+
 }
 /*
 package studio.baka.satoripixeldungeon.android;
