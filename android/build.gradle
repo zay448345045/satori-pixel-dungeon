@@ -35,7 +35,7 @@ appAndroidMinSDK
         appAndroidMinSDK = 24
 */
         versionCode 383
-        versionName 1.7.4
+        versionName '1.7.4'
 version = 1.7.4
         //noinspection MinSdkTooLow
         minSdkVersion 24
