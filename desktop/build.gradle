@@ -27,8 +27,8 @@ task releaseJAR(type: Jar) {
     manifest {
         attributes 'Main-Class': mainClassName
         attributes 'Specification-Name':         'Satori\'s Pixel Dungeon'
-        attributes 'Specification-Version': appVersionName
-        attributes 'Implementation-Version': appVersionCode
+        attributes 'Specification-Version': 3.8.3
+        attributes 'Implementation-Version': '1.7.4'
 /*
 studio.baka.satoripixeldungeon.desktop
 appName
