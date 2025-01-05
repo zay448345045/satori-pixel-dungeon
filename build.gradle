@@ -38,3 +38,6 @@ allprojects {
     }
 
 }
+tasks.register("clean", Delete) {
+    delete = ['build']
+}
