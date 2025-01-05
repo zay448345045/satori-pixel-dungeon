@@ -22,9 +22,9 @@ compileSdkVersion appAndroidCompileSDK
 
     defaultConfig {
 
-        appName 'Satori\'s Pixel Dungeon'
-/*        manifestPlaceholders = [appName:appName]
-*/
+//        appName 'Satori\'s Pixel Dungeon'
+        manifestPlaceholders = [appName:appName]
+
         applicationId "studio.baka.satoripixeldungeon.android"
 /*
 appPackageName         
