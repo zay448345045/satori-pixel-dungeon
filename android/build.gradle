@@ -1,4 +1,4 @@
-plugins { id=apply plugin }
+//plugins { id=apply plugin }
 
 apply plugin: 'com.android.application'
 
