@@ -15,6 +15,7 @@ android {
 namespace "studio.baka.satoripixeldungeon.android"
 
         
+compileSdkVersion 35
     
 
 //    compileSdkVersion appAndroidCompileSDK
