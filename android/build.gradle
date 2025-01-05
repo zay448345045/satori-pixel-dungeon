@@ -25,7 +25,8 @@ compileSdkVersion 35
 /*        manifestPlaceholders = [appName:appName]
 */
         applicationId "studio.baka.satoripixeldungeon.android"
-/*appPackageName         
+/*
+appPackageName         
 appVersionCode = 383
         appVersionName = '1.7.4'
         gdxVersion = '1.9.10'
