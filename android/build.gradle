@@ -8,8 +8,8 @@ package studio.baka.satoripixeldungeon.android;
 */
     configurations.all {
         resolutionStrategy {
-            force 'androidx.vectordrawable:vectordrawable-animated:1.1.0' 
-
+            force 'androidx.vectordrawable:vectordrawable-animated:1.1.0' }
+}
 android {
 
 namespace "studio.baka.satoripixeldungeon.android"
